@@ -8,6 +8,7 @@ def createStopWords(adds):
     Module Dependencies:
     - from nltk.corpus import stopwords
     """
+    from nltk.corpus import stopwords
     #define the Stop words used
     stopWords = (stopwords.words('english'))
     #add in words that should be added to the stopwords list. This will remove these words from the input list
