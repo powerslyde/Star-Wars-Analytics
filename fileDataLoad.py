@@ -8,6 +8,7 @@ def fileDataLoad(filename, sheetname):
     Module Dependencies:
     - Pandas
     """
+    import pandas as pd
     fileDF = []
     if filename[-4:].lower() == 'xlsx':
         fileDF = pd.read_excel(filename, sheet_name=sheetname)
