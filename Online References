@@ -1,0 +1,15 @@
+Replacing Dataframe Column Values
+https://stackoverflow.com/questions/23307301/replacing-column-values-in-a-pandas-dataframe
+
+Selecting Dataframe Rows and Columns
+https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/#loc-selection
+
+Using XLSX writer to write a dataframe to an Excel File
+https://xlsxwriter.readthedocs.io/example_pandas_simple.html
+
+Creating and Importing Python Modules
+https://www.programiz.com/python-programming/modules
+
+SCIKIT Vectorizer Concepts
+https://stackoverflow.com/questions/36800654/how-is-the-tfidfvectorizer-in-scikit-learn-supposed-to-work
+https://towardsdatascience.com/hacking-scikit-learns-vectorizers-9ef26a7170af
