@@ -14,6 +14,11 @@ def WarehouseDataExtract(WH_USER, WH_PW, sql):
     - json (if the user credentials should be read from a json file prior to passing to the function)
     
     """
+    #import dependencies
+    import pandas as pd
+    import pymssql as pym
+    
+    #start the code!
     AMS_WH = 'AV-RISCDCSQL555\SQL555'
     conn = pym.connect(server = AMS_WH, user = WH_USER, password = WH_PW)
     input_DF = pd.read_sql(sql, conn)
